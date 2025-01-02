@@ -20,11 +20,11 @@ function MainSigin() {
 
     return (
         <>
-            <div className="lg:w-[672px] h-[602.34px] sm:w-[408px] bg-white rounded-3xl font-bold border border-[#E6E8F0] text-[#181D27]">
+            <div className="lg:w-[672px] md:w-auto h-[602.34px] sm:w-[408px] bg-white rounded-3xl font-bold border border-[#E6E8F0] text-[#181D27]">
                 <div className="w-full h-fit gap-5 lg:px-6 sm:px-4 py-9 border-b">
                     <div className="flex flex-col items-center gap-6">
                         <CodeAntAI />
-                        <p className="lg:text-[32px]/[48px] sm:text-[24px]/[48px] font-semibold">Welcome to CodeAnt AI</p>
+                        <p className="lg:text-[32px]/[48px] md:text-[32px]/[48px] sm:text-[24px]/[48px] font-semibold">Welcome to CodeAnt AI</p>
                     </div>
                     <div className="flex flex-row p-3">
                         <button className={`w-[311px] h-[60px] border-2 rounded-lg ${selected === 'SAAS' ? 'text-white bg-[#1570EF]' : 'text-[#414651] bg-white'}`}

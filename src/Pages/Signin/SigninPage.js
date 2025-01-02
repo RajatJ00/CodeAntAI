@@ -4,9 +4,9 @@ import MainSigin from "../Signin/Components/SignInfo/Main_Signin";
 
 function SigninPage() {
     return (
-        <div className="lg:w-screen sm:w-[440px] h-screen bg-[#FAFAFA] select-none font-Inter flex">
-            <div className="lg:w-[50%] lg:block sm:hidden h-screen flex flex-row justify-center shadow-[0_0_24px_0_#08173529] border-r border-[#E9EAEB] bg-white">
-                <div className="relative w-[474px] h-[322px] mt-56">
+        <div className="lg:w-screen md:w-screen sm:w-[440px] h-screen bg-[#FAFAFA] select-none font-Inter flex">
+            <div className="lg:w-[50%] md:w-screen lg:flex md:flex sm:hidden h-screen  flex-row justify-center shadow-[0_0_24px_0_#08173529] border-r border-[#E9EAEB] bg-white">
+                <div className="relative w-[474px] h-[322px] mt-56 justify-self-center">
                     <SigninCard />
                     <IssuesFixedCard />
                 </div>

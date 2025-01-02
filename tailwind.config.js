@@ -6,7 +6,9 @@ module.exports = {
       'Inter': ['Inter', 'serif'],
     },
     screens: {
-      'sm': '440px',
+      'sm': '400px',
+      'md': '760px',
+      'lg': '1440px',
     },
     extend: {},
   },

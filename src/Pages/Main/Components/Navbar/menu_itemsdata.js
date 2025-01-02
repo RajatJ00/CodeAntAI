@@ -1,5 +1,4 @@
 import { HiOutlineHome, HiOutlineCode, HiOutlineCog } from "react-icons/hi";
-// HiOutlineDatabase
 import { HiOutlineCloud } from "react-icons/hi2";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 
