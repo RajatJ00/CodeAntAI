@@ -1,6 +1,6 @@
 function UserNav() {
     return(
-        <div className="flex text-center items-center flex-col gap-5 py-6">
+        <div className="flex text-center items-center flex-col gap-5 py-6 mx-2">
             <div className="flex items-center gap-3 text-[#181D27]">
                 <img src="Images/LOGO/codeantai_icon.png" alt="Logo" className="w-7 h-fit " />
                 <p className="text-[24px]/[26.4px] font-normal">CodeAnt AI</p>
