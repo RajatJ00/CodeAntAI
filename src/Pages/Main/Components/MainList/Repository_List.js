@@ -12,7 +12,7 @@ function Repository_List(props) {
                     <div className="flex items-center lg:gap-10 sm:gap-4 font-normal text-base">
                         <p className="flex items-center gap-2">{value.language}<span className="w-2 h-2 bg-[#1570EF] rounded-full"></span></p>
                         <p className="flex items-center gap-2">
-                            <span><HiOutlineDatabase /></span>{value.size}
+                            <HiOutlineDatabase />{value.size}
                         </p>
                         <p className="">{value.updated}</p>
                     </div>
